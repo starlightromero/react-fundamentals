@@ -1,7 +1,7 @@
 import React from 'react'
 import './Title.css'
 
-function Title () {
+const Title = () => {
   return (
     <div className='Title'>
       <h1>SFPOPOS</h1>
