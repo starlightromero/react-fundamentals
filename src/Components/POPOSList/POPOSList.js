@@ -5,13 +5,14 @@ import data from '../../sfpopos-data.json'
 
 const POPOSList = () => {
   const spaces = data.map(place => {
-    const { title, address, images } = place
+    const { title, address, images, hours } = place
     return (
       <POPOSSpace
         key={title}
         name={title}
         address={address}
         image={images[0]}
+        hours={hours}
       />
     )
   })
