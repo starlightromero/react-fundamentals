@@ -7,3 +7,8 @@
   width: 100%;
   height: auto;
 }
+
+.POPOSSpace > .hours {
+  font-size: 1.2rem;
+  margin-top: 0.3rem;
+}
