@@ -7,7 +7,7 @@ const POPOSSpace = props => {
   return (
     <div className='POPOSSpace'>
       <Link to={`/details/${id}`}>
-        <img src={`${process.env.PUBLIC_URL}assets/${image}`} width='300' height='300' alt='Hello' />
+        <img src={`${process.env.PUBLIC_URL}assets/${image}`} width='300' height='300' alt={name} />
       </Link>
       <h1>
         <Link to={`/details/${id}`} className='location'>
