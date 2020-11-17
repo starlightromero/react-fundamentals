@@ -3,7 +3,16 @@
   text-align: center;
 }
 
-.POPOSSpace > img {
+.POPOSSpace .location {
+  text-decoration: none;
+  color: inherit;
+}
+
+.POPOSSpace .location:hover {
+  color: rgb(192, 45, 26);
+}
+
+.POPOSSpace img {
   width: 100%;
   height: auto;
 }
