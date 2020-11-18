@@ -8,7 +8,7 @@ const POPOSDetails = props => {
   return (
     <div>
       <div>
-        <img src={`${process.env.PUBLIC_URL}assets/${images[0]}`} alt={title} />
+        <img src={`${process.env.PUBLIC_URL}/assets/${images[0]}`} alt={title} />
       </div>
 
       <div>
